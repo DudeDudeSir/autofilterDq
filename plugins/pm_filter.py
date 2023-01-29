@@ -1150,7 +1150,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/creatorbeatz")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/dude_tg")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1292,17 +1292,17 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'▪️ɪɴꜰᴏ▫️', 'reqinfo'),
+                    InlineKeyboardButton(f'▪️ᴍᴏᴠɪᴇ▫️', 'minfo'),
+                    InlineKeyboardButton(f'▪️ꜱᴇʀɪᴇꜱ▫️', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'◽ᴍᴏᴠɪᴇ◾', 'minfo'),
+                    InlineKeyboardButton(f'◾ꜱᴇʀɪᴇꜱ◽', 'sinfo')
                 ]
             )
                 
@@ -1313,17 +1313,17 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'▪️ɪɴꜰᴏ▫️', 'reqinfo'),
+                    InlineKeyboardButton(f'▫️ᴍᴏᴠɪᴇ▪️', 'minfo'),
+                    InlineKeyboardButton(f'▫️ꜱᴇʀɪᴇꜱ▪️', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'◾ᴍᴏᴠɪᴇ◽', 'minfo'),
+                    InlineKeyboardButton(f'◾ꜱᴇʀɪᴇꜱ◽', 'sinfo')
                 ]
             )
 
