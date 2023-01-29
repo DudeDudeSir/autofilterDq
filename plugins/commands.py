@@ -24,12 +24,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('▫️Gʀᴏᴜᴘ 1 ▪️', url=GRP_LNK),
+                    InlineKeyboardButton('🔸Gʀᴏᴜᴘ 2 🔹', url="https://t.me/moviecenter226")
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
+                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ ⍟', callback_data='about')
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
@@ -48,12 +47,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('▫️Gʀᴏᴜᴘ 1 ▪️', url=GRP_LNK),
+                    InlineKeyboardButton('🔹Gʀᴏᴜᴘ 2 🔸', url="https://t.me/moviecenter226")
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
+                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ ⍟', callback_data='about')
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
@@ -97,12 +95,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('▪️Gʀᴏᴜᴘ 1▫️', url=GRP_LNK),
+                    InlineKeyboardButton('🔸 Gʀᴏᴜᴘ 2🔹', url="https://t.me/moviecenter226")
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('〄 Hᴇʟᴘ 〄', callback_data='help'),
+                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ ⍟', callback_data='about')
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
@@ -155,10 +152,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('🔸Gʀᴏᴜᴘ 1🔸', url=GRP_LNK),
+                          InlineKeyboardButton('🔹Gʀᴏᴜᴘ 2 🔹', url="https://t.me/moviecenter226")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                          InlineKeyboardButton("❤️‍🔥 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐂ʜᴀɴɴᴇʟ ❤️‍🔥", url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -174,10 +171,10 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('🔸Gʀᴏᴜᴘ 1🔸', url=GRP_LNK),
+                          InlineKeyboardButton('🔹Gʀᴏᴜᴘ 2 🔹', url="https://t.me/moviecenter226")
                        ],[
-                          InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                          InlineKeyboardButton("❤️‍🔥 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐂ʜᴀɴɴᴇʟ ❤️‍🔥", url=CHNL_LNK)
                          ]
                         ]
                     )
@@ -245,10 +242,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('🔸Gʀᴏᴜᴘ 1🔸', url=GRP_LNK),
+                      InlineKeyboardButton('🔹Gʀᴏᴜᴘ 2 🔹', url="https://t.me/moviecenter226")
                    ],[
-                      InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                      InlineKeyboardButton("❤️‍🔥 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐂ʜᴀɴɴᴇʟ ❤️‍🔥", url=CHNL_LNK)
                      ]
                     ]
                 )
@@ -288,10 +285,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('🔸Gʀᴏᴜᴘ 1🔸', url=GRP_LNK),
+              InlineKeyboardButton('🔹Gʀᴏᴜᴘ 2 🔹', url="https://t.me/moviecenter226")
            ],[
-              InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+              InlineKeyboardButton("❤️‍🔥 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐂ʜᴀɴɴᴇʟ ❤️‍🔥", url=CHNL_LNK)
              ]
             ]
         )
